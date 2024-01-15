@@ -1,0 +1,4 @@
+.env
+.vscode
+db.js
+node_modules
