@@ -72,11 +72,11 @@ async function performScraping(dataObject) {
             taste = "sweet"
             foodCategory = "desserts"
             break;
-        case (tags.includes("Appetizers and Snacks" || "Wraps and Rolls" || "Appetizers" || "Dips and Spreads Recipes" || "Snacks")):
+        case (tags.includes("Appetizers and Snacks" || "Wraps and Rolls" || "Appetizers" || "Dips and Spreads Recipes" || "Snacks" || "Sauces and Condiments")):
             taste = "salty"
             foodCategory = "snacks"
             break;
-        case (tags.includes("Main Dishes" || "Soups, Stews, and Chili Recipes" || "Meat and Poultry" || "Salad")):
+        case (tags.includes("Main Dishes" || "Soups, Stews, and Chili Recipes" || "Meat and Poultry" || "Salad" || "Side Dish" || "Pasta and Noodles")):
             taste = "salty"
             foodCategory = "main dishes"
             break;
